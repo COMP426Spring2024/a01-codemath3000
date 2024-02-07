@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Heimdall and Gullveig - Home Page</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="header_bar">
+		<p class="header_link">Home Page</p>
+		<a href="intro.html" class="header_link">Introduction and Characters</a>
+		<a href="main.html" class="header_link">Main Story</a>
+		<a href="conclusion.html" class="header_link">Conclusion</a>
+		<a href="analysis.html" class="header_link">Analysis</a>
+		<a href="technical.html" class="header_link">Technical Notes</a>
+	</div>
+	<img id="starting_animation_left" src="./StartingAnimationImage.png" alt="Starting animation image of old paper">
+	<img id="starting_animation_right" src="./StartingAnimationImage.png" alt="Starting animation image of old paper">
+	<div class="bordered_element">
+		<h1 class="serif_font">Home Page</h1>
+		<label for="pages" class="serif_font">Welcome to the story of Heimdall and Gullveig! Please select the options from the header above or the dropdown menu below.</label>
+		<select name="pages" id="pages" class="dropdown_styled" onchange="window.location = this.value">
+			<option value="index.html">Home Page</option>
+			<option value="intro.html">Introduction and Characters</option>
+			<option value="main.html">Main Story</option>
+			<option value="conclusion.html">Conclusion</option>
+			<option value="analysis.html">Analysis</option>
+			<option value="technical.html">Technical Notes</option>
+		</select>
+	</div>
+</body>
+</html>
